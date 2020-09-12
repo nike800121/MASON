@@ -1,7 +1,7 @@
 # MASON
 This project is based on the existing model to enhance the more features in order to model a pattern of collective escape for starlings.
 
-![Starling model](/mason.png)
+![Starling model](/Mason.png)
 
     INSTALATION:
 **************************************************************
