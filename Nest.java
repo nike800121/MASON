@@ -117,14 +117,8 @@ public class Nest implements Steppable
             {
             	mur.WriteToResultsFile(itter, convert);
             	count++;
-            	//System.out.println(count);
             }
             
-            /*if(count == 5000)
-            {
-            	mur.WriteToResultsFile(itter, 100);
-            	System.out.println("Done!!");
-            }*/
         }
 
         //////////////////////////////////
