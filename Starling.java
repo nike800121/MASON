@@ -147,8 +147,7 @@ public class Starling implements Steppable
                 aliveNeighbors.add(otherCli);
             }
         }
-
-        //return VisionNeighbors;
+	
         return aliveNeighbors;
 
     }
@@ -180,7 +179,6 @@ public class Starling implements Steppable
                     double yDir = (otherPos.y - pos.y) * otherDistSq * -1;
                     double zDir = (otherPos.z - pos.z) * otherDistSq * -1;
                     newDir = new Double3D(xDir + newDir.x, yDir + newDir.y, zDir + newDir.z);
-                    //System.out.println("Sep");
                 }
             }
 
@@ -227,11 +225,7 @@ public class Starling implements Steppable
                 
             	
                 newDir = new Double3D(xDir + newDir.x, yDir + newDir.y, zDir + newDir.z);
-                
-
-            	
-                //System.out.println("Pre");
-
+		
             }
             else if (s.objs[i] instanceof Obstacle) {
             	
